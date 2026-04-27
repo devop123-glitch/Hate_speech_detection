@@ -179,12 +179,6 @@ Word2Vec is trained only on the given dataset (limited vocabulary)
 LSTM training is relatively basic (no hyperparameter tuning)
 No cross-validation applied
 Dataset size may limit generalization
-Future Improvements
-Use pre-trained embeddings (GloVe, FastText)
-Try transformer-based models (BERT)
-Perform hyperparameter tuning
-Add cross-validation
-Deploy as a web application
 How to Run
 Install dependencies:
 pip install pandas numpy nltk scikit-learn gensim tensorflow emoji beautifulsoup4 pyspellchecker textblob
